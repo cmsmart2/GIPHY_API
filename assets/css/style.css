@@ -4,3 +4,17 @@ body {
 h1, label {
     font-family: 'Permanent Marker', cursive;
 }
+.imageDiv{
+    border: 3px dashed white;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    font-family: 'Permanent Marker', cursive;
+    
+  }
+.gifImages {
+    width: 350px;
+    margin: 10px;
+}
+

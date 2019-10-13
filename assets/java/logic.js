@@ -52,6 +52,7 @@ $(document).on('click', '.pageButtons', function(){
             gifImage.addClass('gifImages')
             imageDiv.append(p);
             imageDiv.append(gifImage);
+            imageDiv.addClass('imageDiv');
             $("#gifs-here").prepend(imageDiv);
         }
     });
