@@ -1,0 +1,6 @@
+body {
+    background: url(/assets/images/congruent_pentagon.png)
+}
+h1, label {
+    font-family: 'Permanent Marker', cursive;
+}

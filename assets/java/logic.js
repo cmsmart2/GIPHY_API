@@ -1,6 +1,6 @@
-var parksRecArray = ["Leslie Knope", "Ron Swanson", "April Ludgate","Andy Dwyer","Jerry Gergich", "Tom Haverfor", "Donna Meagle", "Pawnee", "Eagleton","Lil Sebastian", "Tammy II","Perd Hapley" ];
+//global varibles
+var parksRecArray = ["Leslie Knope", "Ron Swanson", "April Ludgate","Andy Dwyer","Jerry Gergich", "Tom Haverfor", "Donna Meagle", "Pawnee", "Eagleton","Lil Sebastian", "Tammy","Perd Hapley" ];
 var newSearch ="";
-
 // loads buttons on screen when page is loaded
 startPage();
 // the function for the startPage 
@@ -28,7 +28,7 @@ $('#submit-button').on('click',function(){
     
 });
 //Gets the data from giphy when a button at the top is clicked and prints gifs & rating on the page
-$('.pageButtons').on('click', function(){
+$(document).on('click', '.pageButtons', function(){
     $('#gifs-here').empty();
     var search = $(this).data('type');
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
