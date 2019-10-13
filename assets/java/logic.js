@@ -43,8 +43,8 @@ $(document).on('click', '.pageButtons', function(){
             var imageDiv = $("<div>");
             var p = $("<p>").text("Rating: " + results[i].rating);
             var gifImage = $("<img>");
-            var animated = response.data[i].images.fixed_height.url;
-            var still = response.data[i].images.fixed_height_still.url;
+            var animated = response.data[i].images.fixed_width.url;
+            var still = response.data[i].images.fixed_width_still.url;
             gifImage.attr("src", still);
             gifImage.attr("data-still", still);
             gifImage.attr("data-animated", animated);
