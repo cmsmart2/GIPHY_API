@@ -49,7 +49,7 @@ $(document).on('click', '.pageButtons', function(){
             gifImage.attr("data-still", still);
             gifImage.attr("data-animated", animated);
             gifImage.attr("data-state", 'still');
-            gifImage.addClass('gifImages')
+            gifImage.addClass('gifImages col')
             imageDiv.append(p);
             imageDiv.append(gifImage);
             imageDiv.addClass('imageDiv');
