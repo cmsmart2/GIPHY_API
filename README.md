@@ -18,7 +18,7 @@ In addition, there is a form that allows a user to input a word to be added to t
 
 WHY THE PROJECT IS USEFUL
 
-The GifTastic project fulfills a homework assignment for University of Kansas Coding Boot Camp, August 2019 to February 2020. Besides continuing to work with jQuery and JavaScript, with this assignment, I also began learning how to work with AJAX requests and the GIPHY API to write items dynamically to the DOM without a browser page refresh.
+The project fulfills a homework assignment for University of Kansas Coding Boot Camp, August 2019 to February 2020. Besides continuing to work with jQuery and JavaScript, with this assignment, I also began learning how to work with AJAX requests and the GIPHY API to write items dynamically to the DOM without a browser page refresh.
 
 HOW YOU CAN GET STARTED WITH THE PROJECT
 
